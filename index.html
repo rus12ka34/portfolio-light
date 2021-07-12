@@ -1,0 +1,1340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>Electro</title>
+
+
+
+
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css">
+	<!-- Шрифты -->
+	<link rel="stylesheet" type="text/css" href="fonts/stylesheet.css">
+
+	<!-- Slick Slider -->
+	<!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> -->
+
+	<!-- Мои стили -->
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+
+	<section id="popap">
+		<div class="popap-block">
+			<div class="head-popan">
+				<div class="off-popap" onclick="hidePopup()"><span>+</span></div>
+			</div>
+			<div class="body-popau">
+				<h2>On-line <span>Заявка</span></h2>
+				<form method="post" action="php/action.php">
+					<input class="popap-input" type="text" name="name" placeholder="имя">
+					<input class="popap-input" type="text" name="phone" placeholder="телефон">
+					<input class="popap-input" type="text" name="mail" placeholder="e-mail">
+					<button type="submit" class="btn-bg popap-btn">Оставить заявку</button>
+				</form>
+				
+				<p>Отправляя заявку я соглашаюсь с условиями<br>о <a href="#">неразглашении данных</a></p>
+			</div>
+
+			
+		</div>
+	</section>
+
+	<header id="header">
+		<div class="container-header">
+			<div class="logo-header wow fadeInLeft">
+				<img src="img/logo-header.png">
+			</div>
+			<div class="main-nav">
+				<ul class="nav" id="nav">
+					<li>
+						<a href="#services">услуги</a>
+					</li>
+					<li>
+						<a href="#standard-project">стоимость</a>
+					</li>
+					<li>
+						<a href="#calculator">калькулятор</a>
+					</li>
+					<li>
+						<a onclick="showPopup()">заказать звонок</a>
+					</li>
+					<li class="nav-tel">
+						<a href="#">8 (495) 123 4567</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="header-block wow fadeInLeft">
+				<h1 class="offer-title"><span class="sp-1">Профессиональные</span><br> электро-<br>монтажные <br>
+					<span class="sp-2">работы</span> <span class="sp-3">под ключ</span>
+				</h1>
+
+				<p class="header-discount">
+					<span>Сэкономим до 30%</span> Вашего бюджета<br>за счет грамотной планировки
+				</p>
+
+				<a class="header-btn" onclick="showPopup()">
+					<div class="header-btn-bg btn-bg">вызвать замерщика</div>
+				</a>
+			</div>
+
+			<div id="header-slider">
+				<div class="header-slider-block">
+
+					<div class="header-slider-item">
+						<img src="img/photo-flat.png">
+					</div>
+					<div class="header-slider-item">
+						<img src="img/photo-flat.png">
+					</div>
+					<div class="header-slider-item">
+						<img src="img/photo-flat.png">
+					</div>
+					<div class="header-slider-item">
+						<img src="img/photo-flat.png">
+					</div>
+					<div class="header-slider-item">
+						<img src="img/photo-flat.png">
+					</div>
+					<div class="header-slider-item">
+						<img src="img/photo-flat.png">
+					</div>
+					<div class="header-slider-item">
+						<img src="img/photo-flat.png">
+					</div>
+
+				</div>
+			</div>
+
+			<div class="header-worker-img">
+				<img src="img/round-builder.png">
+			</div>
+		</div>
+
+		<div class="container-header">
+			<div class="header-bottom">
+				<div class="header-bottom-block">
+					<div>
+						<img src="img/doc-icon.png">
+					</div>
+					<h4>Официальный договор</h4>
+				</div>
+				<div class="header-bottom-block">
+					<div><img src="img/lock-icon.png"></div>
+					<h4>Цена и сроки не меняются</h4>
+				</div>
+				<div class="header-bottom-block header-bottom-block-last">
+					<div><img src="img/gvard-icon.png"></div>
+					<h4>Гарантия на работы 5 лет</h4>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section id="on-any-object">
+		<div class="container-header">
+			<div class="any-object-block-slider-text">
+				<div class="any-object-text-block wow fadeInLeft">
+					<h1>ПРОИЗВОДИМ<br>ЭЛЕКТРО-<br>МОНТАЖ<br><span>НА ЛЮБЫХ<br>ОБЪЕКТАХ</span></h1>
+				</div>
+				<div id="any-object-btn"></div>
+			</div>
+			<div class="any-object-right wow fadeInRight">
+				<div id="any-object-slider">
+					<div class="any-object-item">
+						<img src="img/photo-01.png">
+						<div class="any-object-item-text">
+							<h3>В хрущевке: </h3>
+							<h4>во вторичке и сталинском доме</h4>
+							<div class="any-object-item-line"></div>
+							<p>
+                                Меняем электропроводку<br>полностью и частично<br><br>Делаем электромонтаж  по полу,<br>по потолку, и в плинтусах
+							</p>	
+						</div>
+					</div>
+					<div class="any-object-item">
+						<img src="img/photo-01.png">
+						<div class="any-object-item-text">
+							<h3>В хрущевке: </h3>
+							<h4>во вторичке и сталинском доме</h4>
+							<div class="any-object-item-line"></div>
+							<p>
+                                Меняем электропроводку<br>полностью и частично<br><br>Делаем электромонтаж  по полу,<br>по потолку, и в плинтусах
+							</p>	
+						</div>
+					</div>
+					<div class="any-object-item">
+						<img src="img/photo-01.png">
+						<div class="any-object-item-text">
+							<h3>В хрущевке: </h3>
+							<h4>во вторичке и сталинском доме</h4>
+							<div class="any-object-item-line"></div>
+							<p>
+                                Меняем электропроводку<br>полностью и частично<br><br>Делаем электромонтаж  по полу,<br>по потолку, и в плинтусах
+							</p>	
+						</div>
+					</div>
+					<div class="any-object-item">
+						<img src="img/photo-01.png">
+						<div class="any-object-item-text">
+							<h3>В хрущевке: </h3>
+							<h4>во вторичке и сталинском доме</h4>
+							<div class="any-object-item-line"></div>
+							<p>
+                                Меняем электропроводку<br>полностью и частично<br><br>Делаем электромонтаж  по полу,<br>по потолку, и в плинтусах
+							</p>	
+						</div>
+					</div>
+					<div class="any-object-item">
+						<img src="img/photo-01.png">
+						<div class="any-object-item-text">
+							<h3>В хрущевке: </h3>
+							<h4>во вторичке и сталинском доме</h4>
+							<div class="any-object-item-line"></div>
+							<p>
+                                Меняем электропроводку<br>полностью и частично<br><br>Делаем электромонтаж  по полу,<br>по потолку, и в плинтусах
+							</p>	
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="different-walls">
+		<div class="container-header">
+			<div class="any-object-block-slider-text wow fadeInLeft">
+				<div class="any-object-text-block wow fadeInLeft">
+					<h1>ПРОИЗВОДИМ<br>МОНТАЖ<br><span>НА РАЗНЫХ<br>ВИДАХ СТЕН</span></h1>
+				</div>
+				<div id="different-walls-btn"></div>
+			</div>
+			<div class="any-object-right wow fadeInRight">
+				<div id="different-walls-slider">
+					<div class="any-object-item">
+						<img src="img/photo-01.png">
+						<div class="different-walls-item-text">
+							<h3>На бетоне и монолите</h3>
+							<p><span>Аккуратно:</span> С перфоратором и<br>специальные коронки</p>	
+						</div>
+					</div>
+					<div class="any-object-item">
+						<img src="img/photo-01.png">
+						<div class="different-walls-item-text">
+							<h3>На бетоне и монолите</h3>
+							<p><span>Аккуратно:</span> С перфоратором и<br>специальные коронки</p>	
+						</div>
+					</div>
+					<div class="any-object-item">
+						<img src="img/photo-01.png">
+						<div class="different-walls-item-text">
+							<h3>На бетоне и монолите</h3>
+							<p><span>Аккуратно:</span> С перфоратором и<br>специальные коронки</p>	
+						</div>
+					</div>
+					<div class="any-object-item">
+						<img src="img/photo-01.png">
+						<div class="different-walls-item-text">
+							<h3>На бетоне и монолите</h3>
+							<p><span>Аккуратно:</span> С перфоратором и<br>специальные коронки</p>	
+						</div>
+					</div>
+					<div class="any-object-item">
+						<img src="img/photo-01.png">
+						<div class="different-walls-item-text">
+							<h3>На бетоне и монолите</h3>
+							<p><span>Аккуратно:</span> С перфоратором и<br>специальные коронки</p>	
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="standard-project">
+		<div class="container-header">
+			<div class="any-object-block-slider-text">
+				<div class="any-object-text-block wow fadeInLeft">
+					<h1>СТОИМОСТЬ<br>НАШИХ<br>РАБОТ для<br><span>типового<br>проекта</span></h1>
+				</div>
+				<div class="slider-left-btn">
+					<a href="#">пример сметы</a>
+				</div>
+				<div id="standard-project-btn"></div>
+			</div>
+			<div class="any-object-right wow fadeInRight">
+				<div id="standard-project-slider">
+
+					<div class="standard-project-item">
+						<div class="standard-project-slide-head">
+							<div class="standard-project-slide-head-text">
+								<h3>30-40 м<sup><small>2</small></sup></h3>
+								<p>1 комнатная квартира</p>
+							</div>
+							<div class="standard-project-slide-head-img">
+								<img src="img/room-plan.png">
+							</div>
+						</div>
+
+						<div class="standard-project-slide-body">
+							<div class="stock">
+								<div class="bg-stock"></div>
+								<h3>Акция</h3>
+							</div>
+
+							<div class="list-services">
+								<h3>Что входит:</h3>
+								<ul>
+									<li>Протяжка кабеля в гофре - 100 м.</li>
+									<li>Протяжка кабеля в гофре - 100 м.</li>
+									<li>Монтаж подрозетников - до 21 шт.</li>
+									<li>Сборка и подключение распред. щитка - 8 модулей, 6 линий</li>
+									<li>Подключение розеток и освещения</li>
+									<li>Срок выполнение работ 1-2 дня</li>
+								</ul>
+							</div>
+
+							<div class="price-reload">
+								<div class="price-remove">20 000 руб.
+									<div class="price-remove-bg"></div>
+								</div>
+								<div class="price">15 000 руб.</div>
+							</div>
+							<div class="standard-project-btn">
+								<span class="btn-bg" onclick="showPopup()"><div class="standard-project-btn-bg">Заказать</div></span>
+							</div>
+							
+						</div>
+					</div>
+
+					<div class="standard-project-item">
+						<div class="standard-project-slide-head">
+							<div class="standard-project-slide-head-text">
+								<h3>30-40 м<sup><small>2</small></sup></h3>
+								<p>1 комнатная квартира</p>
+							</div>
+							<div class="standard-project-slide-head-img">
+								<img src="img/room-plan.png">
+							</div>
+						</div>
+
+						<div class="standard-project-slide-body">
+							<div class="stock">
+								<div class="bg-stock"></div>
+								<h3>Акция</h3>
+							</div>
+
+							<div class="list-services">
+								<h3>Что входит:</h3>
+								<ul>
+									<li>Протяжка кабеля в гофре - 100 м.</li>
+									<li>Протяжка кабеля в гофре - 100 м.</li>
+									<li>Монтаж подрозетников - до 21 шт.</li>
+									<li>Сборка и подключение распред. щитка - 8 модулей, 6 линий</li>
+									<li>Подключение розеток и освещения</li>
+									<li>Срок выполнение работ 1-2 дня</li>
+								</ul>
+							</div>
+
+							<div class="price-reload">
+								<div class="price-remove">20 000 руб.
+									<div class="price-remove-bg"></div>
+								</div>
+								<div class="price">15 000 руб.</div>
+							</div>
+							<div class="standard-project-btn">
+								<span class="btn-bg" onclick="showPopup()"><div class="standard-project-btn-bg">Заказать</div></span>
+							</div>
+							
+						</div>
+					</div>
+
+					<div class="standard-project-item">
+						<div class="standard-project-slide-head">
+							<div class="standard-project-slide-head-text">
+								<h3>30-40 м<sup><small>2</small></sup></h3>
+								<p>1 комнатная квартира</p>
+							</div>
+							<div class="standard-project-slide-head-img">
+								<img src="img/room-plan.png">
+							</div>
+						</div>
+
+						<div class="standard-project-slide-body">
+							<div class="stock">
+								<div class="bg-stock"></div>
+								<h3>Акция</h3>
+							</div>
+
+							<div class="list-services">
+								<h3>Что входит:</h3>
+								<ul>
+									<li>Протяжка кабеля в гофре - 100 м.</li>
+									<li>Протяжка кабеля в гофре - 100 м.</li>
+									<li>Монтаж подрозетников - до 21 шт.</li>
+									<li>Сборка и подключение распред. щитка - 8 модулей, 6 линий</li>
+									<li>Подключение розеток и освещения</li>
+									<li>Срок выполнение работ 1-2 дня</li>
+								</ul>
+							</div>
+
+							<div class="price-reload">
+								<div class="price-remove">20 000 руб.
+									<div class="price-remove-bg"></div>
+								</div>
+								<div class="price">15 000 руб.</div>
+							</div>
+							<div class="standard-project-btn">
+								<span class="btn-bg" onclick="showPopup()"><div class="standard-project-btn-bg">Заказать</div></span>
+							</div>
+							
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="calculator">
+		<div class="container">
+			<div class="calculator-left">
+				<p class="or-calculator wow fadeInLeft">или</p>
+				<h1 class=" wow fadeInLeft">РАССЧИТАЙТЕ<br>СТОИМОСТЬ<br>САМИ.<br><span>КАЛЬКУЛЯТОР:</span></h1>
+				<div class="stand-includes wow fadeInLeft">
+					<h3>В стоимость входит:</h3>
+					<p>
+						Выезд инженера бесплатно.
+						Составление рабочего дизайн проекта вашей квартиры.
+						Расчет сечения провода, количества линий, номинал и количество автоматов и УЗО.
+						Штробление стен под провода, подрозетники, электрический распределительный щит. 
+						Протяжка, укладка, проводов, монтаж подрозетников.
+						Сборка распределительного щитка (под ключ).
+					</p>
+				</div>
+				<div class="calculator-left-btn wow fadeInLeft"><a href="#">скачать прайс лист</a></div>
+			</div>
+			<div class="calculator-right wow fadeIn">
+				<form>
+					<div class="calculator-counter">
+						<div class="line-counter roset">
+							<p>Розетки (220v) ?</p>
+							<div class="counter-input">
+								<div class="minus">
+									<span>-</span>
+								</div>
+								<input class="kol-vo" type="text" name="kol-vo-roset" value="" placeholder="0 шт">
+								<span class="plus">+</span>
+							</div>
+						</div>
+
+						<div class="line-counter switches">
+							<p>Выключатели ?</p>
+							<div class="counter-input">
+								<div class="minus">
+									<span>-</span>
+								</div>
+								<input class="kol-vo" type="text" name="kol-vo-roset" value="" placeholder="0 шт">
+								<span class="plus">+</span>
+							</div>
+						</div>
+
+						<div class="line-counter chandeliers">
+							<p>Люстры-Бра ?</p>
+							<div class="counter-input">
+								<div class="minus">
+									<span>-</span>
+								</div>
+								<input class="kol-vo" type="text" name="kol-vo-roset" value="" placeholder="0 шт">
+								<span class="plus">+</span>
+							</div>
+						</div>
+
+						<div class="line-counter point-of-light">
+							<p>Точечные светильники ?</p>
+							<div class="counter-input">
+								<div class="minus">
+									<span>-</span>
+								</div>
+								<input class="kol-vo" type="text" name="kol-vo-roset" value="" placeholder="0 шт">
+								<span class="plus">+</span>
+							</div>
+						</div>
+
+						<div class="line-counter TV-roset">
+							<p>TV розетки (антена) ?</p>
+							<div class="counter-input">
+								<div class="minus">
+									<span>-</span>
+								</div>
+								<input class="kol-vo" type="text" name="kol-vo-roset" value="" placeholder="0 шт">
+								<span class="plus">+</span>
+							</div>
+						</div>
+
+						<div class="line-counter I-roset">
+							<p>Интернет-розетки ?</p>
+							<div class="counter-input">
+								<div class="minus">
+									<span>-</span>
+								</div>
+								<input class="kol-vo" type="text" name="kol-vo-roset" value="" placeholder="0 шт">
+								<span class="plus">+</span>
+							</div>
+						</div>
+
+						<div class="line-counter rubbed-reg">
+							<p>Регуляторы теплого пола ?</p>
+							<div class="counter-input">
+								<div class="minus">
+									<span>-</span>
+								</div>
+								<input class="kol-vo" type="text" name="kol-vo-roset" value="" placeholder="0 шт">
+								<span class="plus">+</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="calculator-settings">
+						<div class="line-settings">
+							<p>Какая квартира?</p>
+							<div class="settings-btn">
+								<div class="input-block">
+									<input type="radio" name="room" id="room_1">
+									<label for="room_1">1 ком.</label>
+								</div>
+								<div class="input-block">
+									<input type="radio" name="room" id="room_2">
+									<label for="room_2">2 ком.</label>
+								</div>
+								<div class="input-block">
+									<input type="radio" name="room" id="room_3">
+									<label for="room_3">3 ком.</label>
+								</div>
+								<div class="input-block">
+									<input type="radio" name="room" id="room_more">
+									<label for="room_more">Более</label>
+								</div>
+							</div>
+						</div>
+						<div class="line-settings">
+							<p>Прокладка кабеля?</p>
+							<div class="settings-btn">
+								<div class="input-block">
+									<input type="radio" name="cable" id="cable_stand">
+									<label for="cable_stand">В кабель канал</label>
+								</div>
+								<div class="input-block">
+									<input type="radio" name="cable" id="cable_up">
+									<label for="cable_up">По потолку</label>
+								</div>
+								<div class="input-block">
+									<input type="radio" name="cable" id="cable_down">
+									<label for="cable_down">По полу</label>
+								</div>
+							</div>
+						</div>
+						<div class="line-settings">
+							<p>Какие стены?</p>
+							<div class="settings-btn">
+								<div class="input-block">
+									<input type="radio" name="wall" id="beton">
+									<label for="beton">Бетон</label>
+								</div>
+								<div class="input-block">
+									<input type="radio" name="wall" id="kirp">
+									<label for="kirp">Кирпич</label>
+								</div>
+								<div class="input-block">
+									<input type="radio" name="wall" id="peno">
+									<label for="peno">Пеноблок</label>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="calculator-resalt">
+						<div class="line-resalt"></div>	
+						<div class="resalt-count">
+							<p>Итого: <span><span id="calculator-resalt-num">999 999</span> руб.</span></p>
+						</div>
+						<div class="calculator-info">
+							<p>Для более точной информации звоните <span>+7 (495) 123 4567</span></p>
+						</div>
+						
+						<span class="calculator-btn-bg" onclick="showPopup()">
+							<div>Оставить заявку</div>
+						</span>
+
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
+
+	<section id="photo-list">
+		<div class="container-header">
+			<div class="photo-list-nav-block">
+				<div class="nav-block-text">
+					<h1>ФОТО<br><span>НАШИХ<br>РАБОТ</span></h1>
+				</div>
+				<div id="nav-block-btn"></div>
+			</div>
+
+			<div id="photo-list-slider">
+				<div class="photo-list-item">
+					<img src="img/photo-list_01.png">
+				</div>
+				<div class="photo-list-item">
+					<img src="img/photo-list_02.png">
+				</div>
+				<div class="photo-list-item">
+					<img src="img/photo-list_01.png">
+				</div>
+				<div class="photo-list-item">
+					<img src="img/photo-list_02.png">
+				</div>
+				<div class="photo-list-item">
+					<img src="img/photo-list_01.png">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="finished-work">
+		<div class="container-header">
+			<div class="any-object-block-slider-text wow fadeInLeft">
+				<div class="any-object-text-block">
+					<h1>ОТЗЫВЫ<br>О нАС<br><span>И ПРИМЕРЫ<br>ГОТОВЫХ<br>ОБЪЕКТОВ</h1>
+				</div>
+				<div id="finished-work-btn"></div>
+			</div>
+			<div class="any-object-right wow fadeInRight">
+
+
+
+				<div id="finished-work-slider">
+
+
+					<div class="finished-work-item">
+						<div class="questions-item-left">
+							<div class="item-left-head">
+								<span>1 кв. 48 м<sup><small>2</small></sup></span>
+								<p>г. Москва. Ул.Ленинградское шоссе.<br>дом. 8/2к1 кв. 48 </p>
+							</div>
+
+							<div class="item-left-text">
+								<p>
+									Хочу поделиться своими впечатлениями от работы сотрудников МосСпецЭлектро. Хотела заменить старую алюминиевую проводку на новую, при одном условии, не хотелось затрагивать и менять полы и натяжные потолки. Обзвонила около 7 фирм, и в каждой из них мне говорили о возможности проведения проводки только по полу или потолку. Уже морально готовилась к дополнительным затратам. Однако по совету знакомых позвонила в<!--  МосСпецЭлектро. Сотрудник данной фирмы Анатолий предложил возможность проложить проводку не затрагивая пол и потолок. Работа была выполнена быстро, качественно и по доступной цене. Очень довольна. -->
+								</p>
+								<div class="quote"><h1>“</h1></div>
+							</div>
+
+							<div class="autor">
+								<h4>Марина <span>Ануфриева</span></h4>
+								<a href="https://vk.com/id138169820">https://vk.com/id138169820</a>
+							</div>
+						</div>
+
+						<div class="questions-item-right">
+							<div class="finished-work-item-slider">
+								<div class="finished-work-item-slider-item">
+									<img src="img/fin-work-img.png">
+								</div>
+
+								<div class="finished-work-item-slider-item">
+									<img src="img/fin-work-img.png">
+								</div>
+
+								<div class="finished-work-item-slider-item">
+									<img src="img/fin-work-img.png">
+								</div>
+								<div class="finished-work-item-slider-item">
+									<img src="img/fin-work-img.png">
+								</div>
+								<div class="finished-work-item-slider-item">
+									<img src="img/fin-work-img.png">
+								</div>
+								<div class="finished-work-item-slider-item">
+									<img src="img/fin-work-img.png">
+								</div>
+								<div class="finished-work-item-slider-item">
+									<img src="img/fin-work-img.png">
+								</div>
+							</div>
+
+							<div class="finished-work-item-list">
+								<p>Задача: <span>Монтаж электропроводки</span></p>
+								<p>Стены: <span>Пеноблок</span></p>
+								<p>Прокладка кабеля: <span>По полу</span></p>
+								<p>Количество точек: <span>25 штук</span></p>
+								<p>Материалы: <span>Кабель Конкорд , Автоматы АВВ</span></p>
+								<p>Заказчик: <span>Частное лицо</span></p>
+								<p>Дом: <span>Новостройка 1 комнатная</span></p>
+								<p>Время выполнения: <span>1,5 дня</span></p>
+							</div>
+							<div class="finished-work-line"><div></div></div>
+							<div class="finished-work-resalt-prise">
+								<h3>Итого: <span>22 500 руб</span></h3>
+							</div>
+							
+						</div>
+					</div>
+
+					<div class="finished-work-item">
+						<div class="questions-item-left">
+							<div class="item-left-head">
+								<span>1 кв. 48 м<sup><small>2</small></sup></span>
+								<p>г. Москва. Ул.Ленинградское шоссе.<br>дом. 8/2к1 кв. 48 </p>
+							</div>
+
+							<div class="item-left-text">
+								<p>
+									Хочу поделиться своими впечатлениями от работы сотрудников МосСпецЭлектро. Хотела заменить старую алюминиевую проводку на новую, при одном условии, не хотелось затрагивать и менять полы и натяжные потолки. Обзвонила около 7 фирм, и в каждой из них мне говорили о возможности проведения проводки только по полу или потолку. Уже морально готовилась к дополнительным затратам. Однако по совету знакомых позвонила в<!--  МосСпецЭлектро. Сотрудник данной фирмы Анатолий предложил возможность проложить проводку не затрагивая пол и потолок. Работа была выполнена быстро, качественно и по доступной цене. Очень довольна. -->
+								</p>
+								<div class="quote"><h1>“</h1></div>
+							</div>
+
+							<div class="autor">
+								<h4>Марина <span>Ануфриева</span></h4>
+								<a href="https://vk.com/id138169820">https://vk.com/id138169820</a>
+							</div>
+						</div>
+
+						<div class="questions-item-right">
+							<div class="finished-work-item-slider">
+								<div class="finished-work-item-slider-item">
+									<img src="img/fin-work-img.png">
+								</div>
+
+								<div class="finished-work-item-slider-item">
+									<img src="img/fin-work-img.png">
+								</div>
+
+								<div class="finished-work-item-slider-item">
+									<img src="img/fin-work-img.png">
+								</div>
+								<div class="finished-work-item-slider-item">
+									<img src="img/fin-work-img.png">
+								</div>
+								<div class="finished-work-item-slider-item">
+									<img src="img/fin-work-img.png">
+								</div>
+								<div class="finished-work-item-slider-item">
+									<img src="img/fin-work-img.png">
+								</div>
+								<div class="finished-work-item-slider-item">
+									<img src="img/fin-work-img.png">
+								</div>
+							</div>
+
+							<div class="finished-work-item-list">
+								<p>Задача: <span>Монтаж электропроводки</span></p>
+								<p>Стены: <span>Пеноблок</span></p>
+								<p>Прокладка кабеля: <span>По полу</span></p>
+								<p>Количество точек: <span>25 штук</span></p>
+								<p>Материалы: <span>Кабель Конкорд , Автоматы АВВ</span></p>
+								<p>Заказчик: <span>Частное лицо</span></p>
+								<p>Дом: <span>Новостройка 1 комнатная</span></p>
+								<p>Время выполнения: <span>1,5 дня</span></p>
+							</div>
+							<div class="finished-work-line"><div></div></div>
+							<div class="finished-work-resalt-prise">
+								<h3>Итого: <span>22 500 руб</span></h3>
+							</div>
+							
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+		<div class="finished-work-main-btn">
+			<span class="btn-bg" onclick="showPopup()"><div class="standard-project-btn-bg">Хочу так же</div></span>
+		</div>
+	</section>
+
+	<section id="masters">
+		<div class="container-header">
+			<div class="any-object-block-slider-text wow fadeInLeft">
+				<div class="any-object-text-block">
+					<h1>НАШИ<br>КВАЛИФИЦИ-<br>РОВАННЫЕ<br><span>МАСТЕРА</span></h1>
+				</div>
+				<div id="masters-slider-btn"></div>
+			</div>
+			<div class="any-object-right wow fadeInRight">
+				<div id="masters-slider">
+					<div class="masters-item">
+						<div class="masters-item-img">
+							<img src="img/worker_01.png">
+						</div>
+						<div class="masters-item-text">
+							<h1><span>Дмитрий</span> Иванов</h1>
+							<div class="item-text-skils">
+								<div>
+									<img src="img/doc-masters.png">
+								</div>		
+								<p>Эл. монтер 6 разряд,<br>4 группа допуска</p>
+							</div>
+							<div class="masters-item-text-line"></div>
+							<div class="item-text-experience">
+								<h3>Опыт работы: 10 лет</h3>
+							</div>
+						</div>
+					</div>
+
+					<div class="masters-item">
+						<div class="masters-item-img">
+							<img src="img/worker_01.png">
+						</div>
+						<div class="masters-item-text">
+							<h1><span>Дмитрий</span> Иванов</h1>
+							<div class="item-text-skils">
+								<div>
+									<img src="img/doc-masters.png">
+								</div>		
+								<p>Эл. монтер 6 разряд,<br>4 группа допуска</p>
+							</div>
+							<div class="masters-item-text-line"></div>
+							<div class="item-text-experience">
+								<h3>Опыт работы: 10 лет</h3>
+							</div>
+						</div>
+					</div>
+
+					<div class="masters-item">
+						<div class="masters-item-img">
+							<img src="img/worker_01.png">
+						</div>
+						<div class="masters-item-text">
+							<h1><span>Дмитрий</span> Иванов</h1>
+							<div class="item-text-skils">
+								<div>
+									<img src="img/doc-masters.png">
+								</div>		
+								<p>Эл. монтер 6 разряд,<br>4 группа допуска</p>
+							</div>
+							<div class="masters-item-text-line"></div>
+							<div class="item-text-experience">
+								<h3>Опыт работы: 10 лет</h3>
+							</div>
+						</div>
+					</div>
+					
+					<div class="masters-item">
+						<div class="masters-item-img">
+							<img src="img/worker_01.png">
+						</div>
+						<div class="masters-item-text">
+							<h1><span>Дмитрий</span> Иванов</h1>
+							<div class="item-text-skils">
+								<div>
+									<img src="img/doc-masters.png">
+								</div>		
+								<p>Эл. монтер 6 разряд,<br>4 группа допуска</p>
+							</div>
+							<div class="masters-item-text-line"></div>
+							<div class="item-text-experience">
+								<h3>Опыт работы: 10 лет</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="services">
+		<div class="container-header">
+			<div class="any-object-block-slider-text wow fadeInLeft">
+				<div class="any-object-text-block">
+					<h1>ДОПОЛНИ-<br>ТЕЛЬНЫЕ<br><span>УСЛУГИ</h1>
+				</div>
+				<div class="slider-left-btn">
+					<a href="#">пример сметы</a>
+				</div>
+				<div id="services-btn"></div>
+			</div>
+			<div class="any-object-right wow fadeInRight">
+				<div id="services-slider">
+
+					<div class="services-item">
+						<div class="standard-project-slide-head">
+							<div class="standard-project-slide-head-text">
+								<h3>Подключение<br>стир. машины</h3>
+							</div>
+						</div>
+
+						<div class="standard-project-slide-body">
+
+							<div class="list-services">
+								<h3>В стоимость входят:</h3>
+								<ul>
+									<li>Работа</li>
+									<li>Узо автомат - защитное устройство для аварийного отключения</li>
+									<li>Кабель 3х2,5 от электрощитка до потребителя</li>
+									<li>Сборка и подключение распред. щитка - 8 модулей, 6 линий</li>
+									<li>Розетка IP 65</li>
+								</ul>
+							</div>
+
+							<div class="price-reload">
+								
+								<div class="price">5 000 руб.</div>
+							</div>
+							<div class="standard-project-btn">
+								<span class="btn-bg" onclick="showPopup()"><div class="standard-project-btn-bg">Заказать</div></span>
+							</div>
+							
+						</div>
+					</div>
+
+					<div class="services-item">
+						<div class="standard-project-slide-head">
+							<div class="standard-project-slide-head-text">
+								<h3>Подключение<br>стир. машины</h3>
+							</div>
+						</div>
+
+						<div class="standard-project-slide-body">
+
+							<div class="list-services">
+								<h3>В стоимость входят:</h3>
+								<ul>
+									<li>Работа</li>
+									<li>Узо автомат - защитное устройство для аварийного отключения</li>
+									<li>Кабель 3х2,5 от электрощитка до потребителя</li>
+									<li>Сборка и подключение распред. щитка - 8 модулей, 6 линий</li>
+									<li>Розетка IP 65</li>
+								</ul>
+							</div>
+
+							<div class="price-reload">
+								
+								<div class="price">5 000 руб.</div>
+							</div>
+							<div class="standard-project-btn">
+								<span class="btn-bg" onclick="showPopup()"><div class="standard-project-btn-bg">Заказать</div></span>
+							</div>
+							
+						</div>
+					</div>
+
+					<div class="services-item">
+						<div class="standard-project-slide-head">
+							<div class="standard-project-slide-head-text">
+								<h3>Подключение<br>стир. машины</h3>
+							</div>
+						</div>
+
+						<div class="standard-project-slide-body">
+
+							<div class="list-services">
+								<h3>В стоимость входят:</h3>
+								<ul>
+									<li>Работа</li>
+									<li>Узо автомат - защитное устройство для аварийного отключения</li>
+									<li>Кабель 3х2,5 от электрощитка до потребителя</li>
+									<li>Сборка и подключение распред. щитка - 8 модулей, 6 линий</li>
+									<li>Розетка IP 65</li>
+								</ul>
+							</div>
+
+							<div class="price-reload">
+								
+								<div class="price">5 000 руб.</div>
+							</div>
+							<div class="standard-project-btn">
+								<span class="btn-bg" onclick="showPopup()"><div class="standard-project-btn-bg">Заказать</div></span>
+							</div>
+							
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="work-contract">
+		<div class="container wow fadeInLeft">
+			<div class="work-contract-block">
+				<h1>РАБОТАЕМ<span> ПО<br>дОГОВОРУ</span></h1>
+				<div class="work-contract-btn">
+					<a href="#">скачать договор</a>
+				</div>
+			</div>
+
+			<div class="work-contract-block work-contract-center">
+				<div class="work-contract-item">
+					<div>
+						<img src="img/work-contract-lock-img.png">				
+					</div>
+					<h4>Фиксированные цены в начале работ</h4>
+				</div>
+				<div class="work-contract-item">
+					<div>
+						<img src="img/work-contract-lock-img.png">				
+					</div>
+					<h4>Понятные  сроки</h4>
+				</div>
+
+			</div>
+
+			<div class="work-contract-block">
+				<div class="work-contract-item">
+					<div>
+						<img src="img/work-contract-lock-img.png">				
+					</div>
+					<h4>Утвержденная смета на материалы и работы</h4>
+				</div>
+				<div class="work-contract-item">
+					<div>
+						<img src="img/work-contract-lock-img.png">				
+					</div>
+					<h4>Гарантия  на работы</h4>
+				</div>
+			</div>
+		</div>	
+	</section>
+
+	<section id="discount">
+		<div class="container-header wow fadeInRight">
+			<div class="discount-block">
+				<h1>Акция<span><br>-10%</span><span class="text"><br>Пенсионерам<br>и в новостройке</span></h1>
+				<p>на Электромонтажные роботы</p>
+			</div>
+
+			<div class="discount-block discount-center">
+				<div>
+					<img src="img/discond-worker.png">
+				</div>
+			</div>
+
+			<div class="work-contract-block">
+				<form>
+					<input class="discount-input" type="text" name="discount-phone" placeholder="ваш телефон">
+					<button type="submit">получить скидку</button>
+				</form>
+			</div>
+		</div>	
+	</section>
+
+	<section id="hacks">
+		<div class="container-header">
+			<div class="any-object-block-slider-text wow fadeInLeft">
+				<div class="any-object-text-block">
+					<h1>Лайф<br><span>хаки</h1>
+				</div>
+				<div id="hacks-btn"></div>
+			</div>
+			<div class="any-object-right wow fadeInRight">
+				<div id="hacks-slider">
+
+					<div class="services-item">
+						<div class="hacks-slide-head">
+							<div class="standard-project-slide-head-text">
+								<h3>Выключатели</h3>
+							</div>
+						</div>
+
+						<div class="hacks-slide-body">
+
+							<p>выключатели должны располагаться со стороны дверной ручки. Это обеспечивает удобство включения при закрытых или полностью открытых дверях. Для большей эстетичности выключатели надо располагать на расстоянии 15см от дверного проема и 90см от пола.</p>
+
+						</div>
+					</div>
+
+					<div class="services-item">
+						<div class="hacks-slide-head">
+							<div class="standard-project-slide-head-text">
+								<h3>Выключатели</h3>
+							</div>
+						</div>
+
+						<div class="hacks-slide-body">
+
+							<p>выключатели должны располагаться со стороны дверной ручки. Это обеспечивает удобство включения при закрытых или полностью открытых дверях. Для большей эстетичности выключатели надо располагать на расстоянии 15см от дверного проема и 90см от пола.</p>
+							
+						</div>
+					</div>
+
+					<div class="services-item">
+						<div class="hacks-slide-head">
+							<div class="standard-project-slide-head-text">
+								<h3>Выключатели</h3>
+							</div>
+						</div>
+
+						<div class="hacks-slide-body">
+
+							<p>выключатели должны располагаться со стороны дверной ручки. Это обеспечивает удобство включения при закрытых или полностью открытых дверях. Для большей эстетичности выключатели надо располагать на расстоянии 15см от дверного проема и 90см от пола.</p>
+							
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="questions">
+		<div class="container-header">
+			<div class="any-object-block-slider-text wow fadeInLeft">
+				<div class="any-object-text-block">
+					<h1>ЧАСТО<br>ЗАДАВАЕМЫЕ<br><span>ВОПРОСЫ</h1>
+				</div>
+				<div id="questions-btn"></div>
+			</div>
+			<div class="any-object-right wow fadeInRight">
+				<div id="questions-slider">
+
+					<div class="questions-item">
+						<h3>В хрущевке</h3>
+						<ul>
+							<li>
+								<div class="questions-item-line">
+									<div class="questions-item-dot"></div>
+									<span>1. Хотите сделать электромонтаж качественно но не дорого?</span>
+								</div>
+								<p>Хотите сделать электромонтаж качественно но не дорого качественно но не качественно но не качественно но некачественно но не?</p>
+							</li>
+							<li>
+								<div class="questions-item-line">
+									<div class="questions-item-dot"></div>
+									<span>2. Как самостоятельно принять решение о необходимости  замене электропроводки?</span>
+								</div>
+								<p>Хотите сделать электромонтаж качественно но не дорого качественно но не качественно но не качественно но некачественно но не?</p>
+							</li>
+							<li>
+								<div class="questions-item-line">
+									<div class="questions-item-dot"></div>
+									<span>3. В каких случаях нужна замена электропроводки в квартире?</span>
+								</div>
+								<p>Хотите сделать электромонтаж качественно но не дорого качественно но не качественно но не качественно но некачественно но не?</p>
+							</li>
+							<li>
+								<div class="questions-item-line">
+									<div class="questions-item-dot"></div>
+									<span>4. Можно ли соединять старую алюминиевую проводку с новый медной ?</span>
+								</div>
+								<p>Хотите сделать электромонтаж качественно но не дорого качественно но не качественно но не качественно но некачественно но не?</p>
+							</li>
+							<li>
+								<div class="questions-item-line">
+									<div class="questions-item-dot"></div>
+									<span>5. Как подготовить помещение для замены электропроводки?</span>
+								</div>
+								<p>Хотите сделать электромонтаж качественно но не дорого качественно но не качественно но не качественно но некачественно но не?</p>
+							</li>
+							<li>
+								<div class="questions-item-line">
+									<div class="questions-item-dot"></div>
+									<span>6. Отсутствует возможность прокладки электро-проводки по полу или по потолку?</span>
+								</div>
+								<p>Хотите сделать электромонтаж качественно но не дорого качественно но не качественно но не качественно но некачественно но не?</p>
+							</li>
+							<li>
+								<div class="questions-item-line">
+									<div class="questions-item-dot"></div>
+									<span>7. Отсутствует возможность штробления стен?</span>
+								</div>
+								<p>Хотите сделать электромонтаж качественно но не дорого качественно но не качественно но не качественно но некачественно но не?</p>
+							</li>
+							<li>
+								<div class="questions-item-line">
+									<div class="questions-item-dot"></div>
+									<span>8. Почему работы в жилом помещении сложнее и дороже?</span>
+								</div>
+								<p>Хотите сделать электромонтаж качественно но не дорого качественно но не качественно но не качественно но некачественно но не?</p>
+							</li>
+						</ul>
+					</div>
+
+					<div class="questions-item">
+						<h3>В хрущевке</h3>
+						<ul>
+							<li>
+								<div class="questions-item-line">
+									<div class="questions-item-dot"></div>
+									<span>1. Хотите сделать электромонтаж качественно но не дорого?</span>
+								</div>
+								<p>Хотите сделать электромонтаж качественно но не дорого качественно но не качественно но не качественно но некачественно но не?</p>
+							</li>
+							<li>
+								<div class="questions-item-line">
+									<div class="questions-item-dot"></div>
+									<span>2. Как самостоятельно принять решение о необходимости  замене электропроводки?</span>
+								</div>
+								<p>Хотите сделать электромонтаж качественно но не дорого качественно но не качественно но не качественно но некачественно но не?</p>
+							</li>
+							<li>
+								<div class="questions-item-line">
+									<div class="questions-item-dot"></div>
+									<span>3. В каких случаях нужна замена электропроводки в квартире?</span>
+								</div>
+								<p>Хотите сделать электромонтаж качественно но не дорого качественно но не качественно но не качественно но некачественно но не?</p>
+							</li>
+							<li>
+								<div class="questions-item-line">
+									<div class="questions-item-dot"></div>
+									<span>4. Можно ли соединять старую алюминиевую проводку с новый медной ?</span>
+								</div>
+								<p>Хотите сделать электромонтаж качественно но не дорого качественно но не качественно но не качественно но некачественно но не?</p>
+							</li>
+							<li>
+								<div class="questions-item-line">
+									<div class="questions-item-dot"></div>
+									<span>5. Как подготовить помещение для замены электропроводки?</span>
+								</div>
+								<p>Хотите сделать электромонтаж качественно но не дорого качественно но не качественно но не качественно но некачественно но не?</p>
+							</li>
+							<li>
+								<div class="questions-item-line">
+									<div class="questions-item-dot"></div>
+									<span>6. Отсутствует возможность прокладки электро-проводки по полу или по потолку?</span>
+								</div>
+								<p>Хотите сделать электромонтаж качественно но не дорого качественно но не качественно но не качественно но некачественно но не?</p>
+							</li>
+							<li>
+								<div class="questions-item-line">
+									<div class="questions-item-dot"></div>
+									<span>7. Отсутствует возможность штробления стен?</span>
+								</div>
+								<p>Хотите сделать электромонтаж качественно но не дорого качественно но не качественно но не качественно но некачественно но не?</p>
+							</li>
+							<li>
+								<div class="questions-item-line">
+									<div class="questions-item-dot"></div>
+									<span>8. Почему работы в жилом помещении сложнее и дороже?</span>
+								</div>
+								<p>Хотите сделать электромонтаж качественно но не дорого качественно но не качественно но не качественно но некачественно но не?</p>
+							</li>
+						</ul>
+					</div>
+
+					<div class="questions-item">
+						<h3>В хрущевке</h3>
+						<ul>
+							<li>
+								<div class="questions-item-line">
+									<div class="questions-item-dot"></div>
+									<span>1. Хотите сделать электромонтаж качественно но не дорого?</span>
+								</div>
+								<p>Хотите сделать электромонтаж качественно но не дорого качественно но не качественно но не качественно но некачественно но не?</p>
+							</li>
+							<li>
+								<div class="questions-item-line">
+									<div class="questions-item-dot"></div>
+									<span>2. Как самостоятельно принять решение о необходимости  замене электропроводки?</span>
+								</div>
+								<p>Хотите сделать электромонтаж качественно но не дорого качественно но не качественно но не качественно но некачественно но не?</p>
+							</li>
+							<li>
+								<div class="questions-item-line">
+									<div class="questions-item-dot"></div>
+									<span>3. В каких случаях нужна замена электропроводки в квартире?</span>
+								</div>
+								<p>Хотите сделать электромонтаж качественно но не дорого качественно но не качественно но не качественно но некачественно но не?</p>
+							</li>
+							<li>
+								<div class="questions-item-line">
+									<div class="questions-item-dot"></div>
+									<span>4. Можно ли соединять старую алюминиевую проводку с новый медной ?</span>
+								</div>
+								<p>Хотите сделать электромонтаж качественно но не дорого качественно но не качественно но не качественно но некачественно но не?</p>
+							</li>
+							<li>
+								<div class="questions-item-line">
+									<div class="questions-item-dot"></div>
+									<span>5. Как подготовить помещение для замены электропроводки?</span>
+								</div>
+								<p>Хотите сделать электромонтаж качественно но не дорого качественно но не качественно но не качественно но некачественно но не?</p>
+							</li>
+							<li>
+								<div class="questions-item-line">
+									<div class="questions-item-dot"></div>
+									<span>6. Отсутствует возможность прокладки электро-проводки по полу или по потолку?</span>
+								</div>
+								<p>Хотите сделать электромонтаж качественно но не дорого качественно но не качественно но не качественно но некачественно но не?</p>
+							</li>
+							<li>
+								<div class="questions-item-line">
+									<div class="questions-item-dot"></div>
+									<span>7. Отсутствует возможность штробления стен?</span>
+								</div>
+								<p>Хотите сделать электромонтаж качественно но не дорого качественно но не качественно но не качественно но некачественно но не?</p>
+							</li>
+							<li>
+								<div class="questions-item-line">
+									<div class="questions-item-dot"></div>
+									<span>8. Почему работы в жилом помещении сложнее и дороже?</span>
+								</div>
+								<p>Хотите сделать электромонтаж качественно но не дорого качественно но не качественно но не качественно но некачественно но не?</p>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer id="footer">
+		<div class="container-header">
+			<div class="footer-text">
+				<div class="footer-logo">
+					<img src="img/footer-logo.png">
+				</div>
+
+				<h3>г. Москва<br>Мещерский переулок, 6к2</h3>
+
+				<div class="footer-data">
+					<p>пн-вс 9:00-21:00</p>
+				</div>
+
+				<p>Предварительно позвоните:</p>
+
+				<h4>8 (495) 123 4567<br>8 (495) 123 4567</h4>
+
+				<h5>mail@mail.ru</h5>
+
+				<span class="header-btn footer-btn" onclick="showPopup()">
+					<div class="header-btn-bg btn-bg">Заказать звонок</div>
+				</span>
+			</div>
+			<div class="footer-map">
+				<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A1aece0a326b2ef6fd75a96001e84bbd6dbc71d02f64f027daef3357d31a56e15&amp;source=constructor" width="760" height="465" frameborder="0"></iframe>
+			</div>
+		</div>
+	</footer>
+
+
+
+
+<!-- Awesome -->
+<script src="https://use.fontawesome.com/f4bcb0277f.js"></script>
+
+<!-- jQuery -->
+<script type="text/javascript" src="js/jquery.js"></script>
+
+<script src="js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>	
+
+<!-- Slick Slider -->
+<!-- <script type="text/javascript" src="js/slick.min.js"></script> -->
+<script type="text/javascript" src="js/slick.min.js"></script>
+
+<!-- Мои скрипты -->
+<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
